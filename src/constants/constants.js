@@ -26,6 +26,7 @@ import {
     miotech,
     netflix, 
     food,
+    dashboard,
     date,
     duffl,
     hai,
@@ -33,6 +34,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    sagemount,
   } from "../assets";
   
   export const navLinks = [
@@ -114,6 +116,17 @@ import {
       ],
     },
     {
+      title: "Private Equity Analyst",
+      company_name: "Bregal Sagemount",
+      icon: sagemount,
+      iconBg: "#FFFFFF",
+      date: "Jun 2023 - Sept 2023",
+      points: [
+        "Applied data analysis techniques on a live-deal transaction in the aviation industry to inform investment decision-making", 
+        "Collaborated with partners to conduct sectoral research on Cybersecurity and Data Governance, supporting SaaS sourcing "
+      ],
+    },
+    {
       title: "Technology Investing Analyst",
       company_name: "KKR – In collaboration with the Stanford Pre-Business Association",
       icon: kkr,
@@ -167,6 +180,35 @@ import {
   ];
   
   const projects = [
+    {
+      name: "iMessage Texts Sentiment Analysis",
+      description:
+        "See who are your best friends (and your worse enemies) via NLP sentiment analysis on your text messages, visualized through animated graphics on a Plotly Dashboard",
+      tags: [
+        {
+          name: "plotly dash",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "sentiment analysis",
+          color: "green-text-gradient",
+        },
+        {
+          name: "python",
+          color: "red-text-gradient",
+        },
+        {
+          name: "html",
+          color: "red-text-gradient",
+        },
+        {
+          name: "css",
+          color: "red-text-gradient",
+        }
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/vaniachow/iMessage_Text_Analysis",
+    },
     {
       name: "Netflix Movie Predictor",
       description:

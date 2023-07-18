@@ -32,6 +32,7 @@ import kkr from "./company/kkr.png";
 import miotech from "./company/miotech.jpeg";
 import hai from "./company/hai.png";
 import duffl from "./company/duffl.png"
+import sagemount from "./company/sagemount.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -39,6 +40,7 @@ import tripguide from "./tripguide.png";
 import food from "./food.png"
 import date from "./date.png"
 import netflix from "./netflix.png"
+import dashboard from "./dashboard.jpg"
 
 export {
   logo,
@@ -66,6 +68,7 @@ export {
   typescript,
   threejs,
   netflix,
+  dashboard,
   food,
   date,
   meta,
@@ -79,4 +82,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  sagemount
 };

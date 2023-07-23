@@ -6,6 +6,9 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import profile from "./profile.jpg";
+import linkedin from "./linkedin.png";
+import gmail from "./gmail.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -49,6 +52,9 @@ export {
   mobile,
   web,
   github,
+  profile,
+  linkedin,
+  gmail,
   menu,
   close,
   css,

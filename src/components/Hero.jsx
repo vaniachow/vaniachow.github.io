@@ -10,7 +10,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#FFE4B5]" /> 
           <img
-            src="src/assets/profile.jpg"
+            src="/src/assets/profile.jpg"
             alt="Profile Image"
             className="w-90 h-80 rounded-full transition-transform hover:scale-105"
             style={{ margin: '30px' }}
@@ -35,9 +35,9 @@ const Hero = () => {
             <div>
               <p className={'mt-3 text-white text-[17px] max-w-3xl leading-[30px]'}>
                 <a href="mailto:vaniac@stanford.edu" style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic', color: 'inherit', textDecoration: 'none', display: 'inline-block' }}>
-                  <img src="src/assets/gmail.png" alt="Gmail Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
+                  <img src="/src/assets/gmail.png" alt="Gmail Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
                 </a> <a href="https://www.linkedin.com/in/vaniachow/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic', color: 'inherit', textDecoration: 'none', display: 'inline-block' }}>
-                  <img src="src/assets/linkedin.png" alt="LinkedIn Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
+                  <img src="/src/assets/linkedin.png" alt="LinkedIn Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
                 </a>
               </p>
             </div>

@@ -22,7 +22,10 @@ const Hero = () => {
         <div className="w-[700px]"> 
           <h1 className={`${styles.heroHeadText} text-white`}> Hi, I'm <span className="text-[#FFBC9B]">Vania</span></h1> {/* Light and warm tone color */}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            <span role="img" aria-label="Location Emoji">📍</span> Computer Science @ Stanford University
+            <span role="img" aria-label="Location Emoji">📍</span> Stanford University
+          </p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            <span role="img" aria-label="Book Emoji">📚</span> Computer Science + Management Science
           </p>
           <p className={'mt-3 text-white text-[17px] max-w-3xl leading-[30px]'}>
             Hey there! I'm Vania and I'm passionate about creating value through product development and investing. 
@@ -36,9 +39,19 @@ const Hero = () => {
             <div>
               <p className={'mt-3 text-white text-[17px] max-w-3xl leading-[30px]'}>
                 <a href="mailto:vaniac@stanford.edu" style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic', color: 'inherit', textDecoration: 'none', display: 'inline-block' }}>
-                  <img src={hero[0].icon} alt="Gmail Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
+                  <img
+                    src={hero[0].icon}
+                    alt="Gmail Logo"
+                    style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }}
+                    className="transition-transform hover:scale-110"
+                    /> 
                 </a> <a href="https://www.linkedin.com/in/vaniachow/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic', color: 'inherit', textDecoration: 'none', display: 'inline-block' }}>
-                  <img src={hero[1].icon} alt="LinkedIn Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
+                  <img
+                      src={hero[1].icon}
+                      alt="Linkedin Logo"
+                      style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }}
+                      className="transition-transform hover:scale-110"
+                      />
                 </a>
               </p>
             </div>

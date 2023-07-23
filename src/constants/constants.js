@@ -12,6 +12,7 @@ import {
     css,
     reactjs,
     tailwind,
+    html,
     nodejs,
     kkr,
     miotech,
@@ -72,15 +73,15 @@ import {
   
   const technologies = [
     {
-      name: "c++",
+      name: "C++",
       icon: c_plus_plus,
     },
     {
-      name: "sql",
+      name: "SQL",
       icon: sql,
     },
     {
-      name: "python",
+      name: "Python",
       icon: python,
     },
     {
@@ -90,6 +91,10 @@ import {
     {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "HTML",
+      icon: html,
     }
   ];
   

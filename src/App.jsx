@@ -11,10 +11,10 @@ const App = () => {
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
             <Hero />
+            <Tech />
           </div>
           <Works />
           <Experience />
-          <Tech />
           <div className="relative z-0">
           </div>
         </div>

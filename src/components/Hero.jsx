@@ -9,6 +9,12 @@ const Hero = () => {
       <div className="absolute inset-0 top-[200px] max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5 z-10">
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#FFE4B5]" /> 
+          <img
+            src="src/assets/profile.jpg"
+            alt="Profile Image"
+            className="w-90 h-80 rounded-full transition-transform hover:scale-105"
+            style={{ margin: '30px' }}
+          />
           <div className="w-1 sm:h-80 h-40 yellow-gradient" /> 
         </div>
 
@@ -18,12 +24,24 @@ const Hero = () => {
             <span role="img" aria-label="Location Emoji">📍</span> Computer Science @ Stanford University
           </p>
             <p className={'mt-3 text-white text-[17px] max-w-3xl leading-[30px]'}>
-              Passionate about user-centric solutions and thinking outside the box, I constantly strive to expand my skills and knowledge.
-              Beyond CS, I enjoy creative writing and exploring the world. Let's create something incredible together!
+            Hey there! I'm Vania and I'm passionate about creating value through product development and investing. 
+            I have experience in Product Management, Private Equity, Research, and am always looking for new opportunities!
+            Outside of academics, I love creative writing (am a published author!), the outdoors, and exploring new cities.
             </p>
             <p className={'mt-3 text-white text-[17px] max-w-3xl leading-[30px]'}>
-              &#x1F4E7; <span style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic' }}>vaniac@stanford.edu</span>
+            Connect with me here:
             </p>
+            <div>
+            <div>
+              <p className={'mt-3 text-white text-[17px] max-w-3xl leading-[30px]'}>
+                <a href="mailto:vaniac@stanford.edu" style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic', color: 'inherit', textDecoration: 'none', display: 'inline-block' }}>
+                  <img src="src/assets/gmail.png" alt="Gmail Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
+                </a> <a href="https://www.linkedin.com/in/vaniachow/" target="_blank" rel="noopener noreferrer" style={{ fontFamily: 'Arial, sans-serif', fontStyle: 'italic', color: 'inherit', textDecoration: 'none', display: 'inline-block' }}>
+                  <img src="src/assets/linkedin.png" alt="LinkedIn Logo" style={{ verticalAlign: 'middle', marginRight: '5px', height: '24px' }} /> 
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       

@@ -2,26 +2,17 @@ import {
     mobile,
     backend,
     creator,
+    linkedin,
+    profile,
+    gmail,
     web,
-    javascript,
-    typescript,
-    html,
     python,
     sql,
     c_plus_plus,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
-    git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     kkr,
     miotech,
     netflix, 
@@ -30,9 +21,6 @@ import {
     date,
     duffl,
     hai,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     sagemount,
   } from "../assets";
@@ -48,6 +36,21 @@ import {
     },
   ];
   
+  const hero = [
+    {
+      title: "Gmail",
+      icon: gmail
+    },
+    {
+      title: "Linkedin",
+      icon: linkedin
+    },
+    {
+      title: "Profile",
+      icon: profile
+    }
+  ];
+
   const services = [
     {
       title: "Web Developer",
@@ -262,4 +265,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, hero, technologies, experiences, testimonials, projects };
